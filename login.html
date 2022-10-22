@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="head">
+      <div class="inline_block"></div>
+          <h1>Complaint Registration Portal</h1>
+      </div></div>
+    
+
+    
+    <div class="form">
+      <form class="login-form" action="http://localhost/WT-Project/auth.php" method="post">
+        <i class="fas fa-user-circle"></i>
+        <input class="user-input" type="text" id="luname" name="luname" placeholder="Username" required>
+        <input class="user-input" type="password" id="lpassword" name="lpassword" placeholder="Password" required>
+        <input class="btn" type="submit" name="" value="LOGIN">
+        <div class="options-02">
+          <p>Not a user? <a href="#">Create an Account</a></p>
+        </div>
+      </form>
+     
+      
+      <form class="signup-form" action="http://localhost/WT-Project/login.php" method="post">
+        <i class="fas fa-user-plus"></i>
+        <input class="user-input" type="text" id="uname" name="uname" placeholder="Username" required>
+        <input class="user-input" type="password" id="upassword" name="upassword" placeholder="Password" required>
+        <input class="user-input" type="email" id="uemail" name="uemail" placeholder="Email Address" required>
+        <input class="user-input" type="phone" id="phno" name="phno" placeholder="Phone Number" required>
+        <input class="btn" type="submit" name="" value="SIGN UP" >
+        <div class="options-02">
+          <p>Already Registered? <a href="#">Log In</a></p>
+        </div>
+      </form>
+      
+    </div>
+    
+
+    <script type="text/javascript">
+    $('.options-02 a').click(function(){
+      $('form').animate({
+        height: "toggle", opacity: "toggle"
+      }, "slow");
+    });
+    </script>
+
+  </body>
+</html>

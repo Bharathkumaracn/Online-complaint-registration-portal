@@ -1,0 +1,39 @@
+.head{
+    background-color: aqua;
+    width:auto;
+    height: 7rem;
+    
+}
+
+.inline_block{
+    display: inline-block;
+    width: max-content;
+    padding-right: 20rem;
+    padding-left: 2rem;
+}
+
+table{
+    border: 1px solid black;
+    width: 92%;
+    
+}
+
+td{
+    
+    border: 1px solid black;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.colheader{
+    text-align: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    column-width: 4rem;
+}
+
+
+.container{
+    padding-top: 2rem;
+}

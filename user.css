@@ -1,0 +1,199 @@
+body{
+    
+    background-color: rgb(255, 255, 224);
+}
+
+h1{
+    font-size: 300%;
+    
+}
+
+
+.head{
+    background-color: rgb(172, 82, 231);
+    width:auto;
+    height: 7rem;
+    margin-bottom: 1px;
+    border-radius: 2rem;
+}
+
+.inline_block{
+   
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    
+}
+
+.name{
+    display: inline-block;
+    width: 90%;
+    float: left;
+}
+
+.logoutform{
+display: inline-block;
+
+margin-right:auto;
+width:10%;
+
+
+
+}
+
+.logoutbtn{
+    background-color: #db1111; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 2px 1px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+    
+}
+
+
+    
+.btn{
+    background-color: #11db2c; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 2px 1px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+
+}
+
+
+
+table{
+    border: 3px solid black;
+    border-style:groove;
+    width: 98%;
+    
+}
+
+td{
+    
+    border: 1px solid black;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+
+
+.colheader{
+    
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    column-width: 4rem;
+}
+
+.colheader1{
+    
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    
+}
+
+
+
+.container{
+    padding-top: 2rem;
+    overflow: scroll;
+    height: 400px;
+}
+
+
+
+form{
+    
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.container1{
+    padding-top: 1rem;
+    overflow: scroll;
+    height: 300px;
+}
+
+textarea{
+    
+    border-radius: 5px;
+    
+}
+
+.info{
+    display: inline-block;
+    width:5%;
+    float: left;
+}
+
+.imgdiv{
+    
+    display: inline-block;
+    width: 15%;
+    padding-left: 30px;
+  
+}
+
+.formdiv{
+    width: auto;
+    display: inline-block;
+    width: 70%;
+    margin-right: auto;
+    
+   
+    
+}
+
+h3{
+    color: rgb(73, 31, 31);
+}
+
+.submit{
+    background-color: #6ea167; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 2px 1px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-left: 24px;
+    margin-top: 5px;
+
+}
+
+.drop{
+    margin-left: 2px;
+    font-size: 15px;
+    background-color: rgb(230, 225, 225);
+    border-radius: 5px;
+}
+
+
+
